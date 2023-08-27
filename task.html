@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task.css">
+    <title>Project Management Tool</title>
+</head>
+<body>
+    <header>
+        <h1 class="pmt">Project Management Tool</h1>
+    </header>
+    <div class="container">
+        <div class="task-list">
+            <h2>Task List</h2>
+            <ul id="tasks">
+                <!-- Tasks will be dynamically added here -->
+            </ul>
+            <div class="add-task-container">
+                <input type="text" id="new-task" placeholder="New task...">
+                <button id="add-task">Add Task</button>
+            </div>
+        </div>
+        <div class="communication">
+            <h2>Communication</h2>
+            <div id="chat">
+                <!-- Chat messages will be dynamically added here -->
+            </div>
+            <div class="send-message-container">
+                <input type="text" id="message-input" placeholder="Type your message...">
+                <button id="send-message">Send</button>
+            </div>
+        </div>
+        <div class="social">
+            <h2>Social Media</h2>
+            <div class="post-form">
+                <textarea id="post-content" placeholder="Write something..."></textarea>
+                <button id="post-button">Post</button>
+            </div>
+            <div class="post-feed" id="post-feed">
+                <!-- Posts will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+   
+</div>
+        
+    
+    </div>
+    <script src="task.js"></script>
+</body>
+</html>
